@@ -296,8 +296,8 @@ background: linear-gradient(to bottom, black, orange);*/
 
 /* services section styling */
 .services, .teams{
-background: linear-gradient(to top, black 85%, #DC0028);
-	/*background: black;*/
+    /* background: linear-gradient(to bottom, black 85%, #DC0028); */
+	background: black;
 }
 .services .title::before,
 .teams .title::before{
