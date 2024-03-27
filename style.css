@@ -62,7 +62,7 @@ section{
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
 }
 section .title{
@@ -418,7 +418,7 @@ background: linear-gradient(to bottom, black, orange);*/
 
 /* teams section styling */
 .teams .title::after{
-    content: "Webs";
+    content: "10";
 }
 .teams .carousel .card{
     background: #222;
@@ -517,7 +517,7 @@ background: linear-gradient(to bottom, black, orange);*/
 }
 .img_whatsapp{
     height: auto;
-    width: 80%;
+    width: 400px;
     border-radius: 18px;
 }
 /* footer section styling */
@@ -548,11 +548,15 @@ footer span a:hover{
     .max-width{
         padding: 0 50px;
     }
+    /* .logo{
+        display: none;
+    } */
 }
 @media (max-width: 947px){
     .menu-btn{
         display: block;
         z-index: 999;
+        border: 1px solid white;
     }
     .menu-btn i.active:before{
         content: "\f00d";
@@ -669,5 +673,9 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .img_whatsapp{
+        width: 250px;
+        margin-top: 25px;
     }
 }
